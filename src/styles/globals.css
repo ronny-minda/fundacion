@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -104,4 +104,62 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+
+ body::-webkit-scrollbar {
+    background: #fff;
+    /* border-radius: 4px; */
+    width: 10px;
+  }
+
+
+  body::-webkit-scrollbar-thumb {
+    background: #9d0552;
+    border-radius: 10px;
+}
+
+.loader {
+  height: 100vh;
+  width: 100vw;
+  background-color: #9d0552;
+  transition: 0.5s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #ffffff00;
+  opacity: 1;
+}
+
+.loaderNo {
+  background-color: #9d055100;
+  opacity: 0;
+}
+
+.loaderNoNo {
+  display: none;
+}
+
+.logo {
+  fill: #ffffff00;
+  transition: 2s;
+  stroke-dasharray: 10;
+  stroke-dashoffset: 50;
+  stroke-width: 1;
+  stroke: #ffffff;
+}
+
+.logoTrsi {
+  stroke-dasharray: 500;
+}
+
+.logoColor {
+  fill: #ffffff;
+}
+
+.hero {
+  background-image:url('/images/demo/backgrounds/01.png');
 }
