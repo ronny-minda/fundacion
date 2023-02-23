@@ -7,7 +7,9 @@ export default function Home() {
     <>
 
       <Head>
+        <title>Fundacion Rodiv</title>
         <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all"></link>
+        <link rel="icon" href="/favicon.png" type="image/png" />
         <script src="/layout/scripts/jquery.min.js"></script>
         <script src="/layout/scripts/jquery.backtotop.js"></script>
         <script src="/layout/scripts/jquery.mobilemenu.js"></script>
