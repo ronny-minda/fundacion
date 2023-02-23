@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
       <div class="wrapper row1">
         <header id="header" class="hoc clear">
 
-          <a href="/" id="logo" class="fl_left" style={{ display: 'flex' }}>
+          <a href="#" id="logo" class="fl_left" style={{ display: 'flex' }}>
             <div style={{ height: '80px', width: '80px' }}>
               <Logo style={{ height: '100%', width: '100%', fill: '#9d0552' }} />
             </div>
